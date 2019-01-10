@@ -1,5 +1,10 @@
+# File name: log-AWS-Instances-S3.sh
+# Author: Robo
+# Date created: 11/30/2019
+# Date last modified: 01/10/2019
+# BASH
 # This script takes various metadata from an instance (IP, hostname instance type, and AMI ID)
-# and writes it to an index.html file. 
+# and writes it to an index.html file.
 # It also places the SSH login string required to access the instance from the command line.
 # Last, it uploads this file into an S3 bucket you define on line 20 below.
 # Requirements: 
