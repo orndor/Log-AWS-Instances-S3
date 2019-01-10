@@ -7,8 +7,8 @@
 # and writes it to an index.html file.
 # It also places the SSH login string required to access the instance from the command line.
 # Last, it uploads this file into an S3 bucket you define on line 20 below.
-# Requirements: 
-# 1) Correct IAM permissions to write to S3 buckets from EC2 instances
+# Requirements:
+# 1) Correct IAM permissions to write to a S3 bucket from EC2 instances
 # 2) The same bucket setup for static website hosting.
 # 3) On line 18, define the path to where your AWS key is stored.
 
